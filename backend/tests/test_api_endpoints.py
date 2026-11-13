@@ -58,3 +58,4 @@ def test_agent_run_rejection_flow(client):
     })
     assert reject_res.status_code == 200
     assert reject_res.json()["remediation_status"] == "dry_run"
+

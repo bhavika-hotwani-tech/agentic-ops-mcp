@@ -251,3 +251,4 @@ def synthesizer_node(state: IncidentState) -> Dict[str, Any]:
         "final_summary": summary,
         "audit_log": [step]
     }
+

@@ -73,3 +73,4 @@ def build_incident_graph():
 
 
 incident_graph = build_incident_graph()
+

@@ -30,3 +30,4 @@ async def list_mcp_tools() -> List[Dict[str, Any]]:
 async def list_mcp_resources() -> List[Dict[str, Any]]:
     """Lists discoverable MCP enterprise resources (runbooks, documentation)."""
     return mcp_server.list_resources()
+

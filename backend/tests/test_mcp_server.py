@@ -58,3 +58,4 @@ def test_mcp_jsonrpc_tools_call():
     assert resp["id"] == 2
     assert "result" in resp
     assert resp["result"]["output"]["count"] > 0
+

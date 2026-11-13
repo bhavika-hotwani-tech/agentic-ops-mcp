@@ -44,3 +44,4 @@ class IncidentState(TypedDict):
     remediation_status: str  # pending | executed | blocked | dry_run
     final_summary: Optional[str]
     audit_log: Annotated[List[AgentStep], operator.add]
+
